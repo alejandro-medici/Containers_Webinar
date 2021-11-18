@@ -1,4 +1,4 @@
-FROM python:3.10.0b4-slim-buster
+FROM python:slim-buster
 ENV PYTHONUNBUFFERED=1
 WORKDIR /code
 COPY requirements.txt /code/
