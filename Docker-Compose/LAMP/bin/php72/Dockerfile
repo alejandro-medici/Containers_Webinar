@@ -1,7 +1,7 @@
 #Quickfix - Basebox for PHP7.2 Library now uses Debian "10" Buster, superceeding #libcurl3, stretch is most compatible at this time whilst devs workout backport.
 #https://github.com/docker-library/php/issues/865
 
-FROM php:7.2-apache-stretch
+FROM php:7.3-apache-stretch
 
 #Surpresses debconf complaints of trying to install apt packages interactively
 #https://github.com/moby/moby/issues/4032#issuecomment-192327844
