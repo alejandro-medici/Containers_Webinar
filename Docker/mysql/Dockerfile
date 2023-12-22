@@ -1,4 +1,4 @@
-FROM mysql:latest
+FROM mysql:8-oraclelinux8
 
 EXPOSE 3306
 
